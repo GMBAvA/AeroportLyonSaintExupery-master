@@ -1,0 +1,109 @@
+
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    /*background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */
+    /*background-color: #1ABC9C;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {
+    background-color: #000 ;
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #409322;
+    color: #fff;
+    border-color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+    border: 1px solid #000;
+}
+body {
+    background: url(./background.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*table {
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+td {
+    ali
+}*/
+table {
+    border: medium solid #000000;
+    width: 50%;
+}
+td, th {
+    width: 50%;
+}
+/*.middle {
+    display: flex;
+    flex-direction: column;
+}*/
+a {
+    background-color: cornflowerblue;
+    border: 2px solid;
+}
+/*li {
+    border: 2px cornflowerblue solid;
+}*/
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 250px;
+    border-bottom: 1px solid #000;
+}
+button {
+    background-color: cornflowerblue;
+    size: 50px;
+}
+.php {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.lediv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 10;
+}
+
+/*td {
+    background-color: chocolate;
+}*/

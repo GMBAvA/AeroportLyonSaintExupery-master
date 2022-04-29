@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<utilisateurs>
+
+    <utilisateur>
+        <nom>Berthoumieu</nom>
+        <prenom>Alexandre</prenom>
+        <mail>berthoumieu.alexandre2@gmail.com</mail>
+        <mdp>LMyhfPKcQf5eY3</mdp>
+    </utilisateur>
+
+    <utilisateur>
+        <nom>Stark</nom>
+        <prenom>Tony</prenom>
+        <mail>tony.stark@starkindustries.com</mail>
+        <mdp>HyJdQjh54NyELSPNytrP5YxQXYTD</mdp>
+    </utilisateur>
+
+    <utilisateur>
+        <nom>Wayne</nom>
+        <prenom>Bruce</prenom>
+        <mail>bruce.wayne@waynecorp.com</mail>
+        <mdp>q^GB#=^*8fr;?9KhBs}bt,:]j488</mdp>
+    </utilisateur>
+
+</utilisateurs>

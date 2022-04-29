@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <liens>
+
+        <lien>
+            <nomFR>Mr Navaron s'énerve</nomFR>
+            <nomEN>Mr Navaron is getting angry</nomEN>
+            <link>https://youtu.be/VP7ltJlMvdo?t=817</link>
+        </lien>
+
+        <lien>
+            <nomFR>Mr Navaron rigole</nomFR>
+            <nomEN>Mr Navaron is laughing</nomEN>
+            <link>https://youtu.be/8OmMGSFrxpU?t=4237</link>
+        </lien>
+
+        <lien>
+            <nomFR>Taco Deluxe du Chef Michel Dumas</nomFR>
+            <nomEN>Taco Deluxe by Chef Michel Dumas</nomEN>
+            <link>https://www.youtube.com/watch?v=_0JI74IRPls</link>
+        </lien>
+
+    </liens>
+</menu>
